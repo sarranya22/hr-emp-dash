@@ -1,6 +1,7 @@
 import React from 'react'
+import Activity from './Activity/Activity'
 import Upcomings from './Upcomings'
-
+import HiringCandidates from './HiringCandidates/HiringCandidates'
 export const Calendar = () => {
     return (
         <div className='Right-layout'>
@@ -10,6 +11,8 @@ export const Calendar = () => {
                 </div>
             </div>
             <Upcomings />
+            <Activity />
+            <HiringCandidates />
         </div>
     )
 }
