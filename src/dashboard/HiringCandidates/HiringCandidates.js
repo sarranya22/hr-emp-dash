@@ -7,8 +7,10 @@ import user3 from '../../../src/assets/user3.png'
 const HiringCandidates = () => {
     return (
         <div className='Hiring-layout'>
-            <label htmlFor="" className='Hiring-text'>Hiring Candidates</label>
-            <label htmlFor="ViewAll" className='Hiring-all'>View All</label>
+            <div className='Hiring-candidates'>
+            <label className='Hiring-text'>HiringCandidates</label>
+            <label className='Hiring-all'>View All</label>
+            </div>
             <div className='Activity-data'>
         <div>
           <img src={user1} className="User-icon" alt="logo" />
@@ -41,7 +43,7 @@ const HiringCandidates = () => {
         </div>
         <div className='Data'>
           <div className='Name'>John Doe</div>
-          <div className='Interview'>Senior Python Develpper</div>
+          <div className='Interview'>Senior Python Develper</div>
           <div className='Lastsceen'>Hired by: Stella</div>
         </div>
         <div>

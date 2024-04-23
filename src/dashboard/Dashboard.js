@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Dashboard.css"
 import TodaysInterview from './TodaysInterview'
+import CandidateStatus from './CandidateStatus/CandidateStatus'
 const Dashboard = () => {
   return (
     <div>
@@ -9,6 +10,7 @@ const Dashboard = () => {
         <div className='Hr-content'>Enjoy your selecting potential candidates Tracking and Management System.</div>
     </div>
     <TodaysInterview />
+    <CandidateStatus />
     </div>
   )
 }

@@ -95,13 +95,19 @@
 
 .Calendar-layout {
     width: 318.08px;
-    height: 247.37px;
+    height: 310.37px;
     top: 773px;
-    margin-top:25px;
+    margin-top: 25px;
     left: 1563.2px;
     gap: 0px;
     border-radius: 3px 0px 0px 0px;
     opacity: 0px;
+    box-shadow: 4px 4px 25px 0px #00000026;
+
+}
+
+.rdrDateDisplayWrapper {
+    display: none;
 }
 
 .Calendar {
@@ -114,8 +120,7 @@
     opacity: 0px;
     /* color: #FFFFFF; */
     color: black;
-    box-shadow: 4px 4px 25px 0px #00000026;
-
+    /* box-shadow: 4px 4px 25px 0px #00000026; */
 }
 
 .Upcoming-layout {
@@ -151,6 +156,8 @@
     line-height: 24px;
     text-align: left;
     color: #0A66C2;
+    text-decoration: underline;
+
 }
 
 .upcoming-layout-current {
