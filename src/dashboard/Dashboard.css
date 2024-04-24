@@ -238,3 +238,37 @@
 .Createdby {
     color: #0A66C2;
 }
+
+.user-icon {
+    width: 100px;
+}
+.label-text {
+    width: 90px;
+height: 24px;
+top: 176.98px;
+left: 91.51px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #091316;
+
+}
+.jobDesc {
+    width: 170px;
+height: 21px;
+top: 207.36px;
+left: 51.51px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #091316;
+
+}

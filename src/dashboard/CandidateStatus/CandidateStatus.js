@@ -31,7 +31,7 @@ const CandidateStatus = () => {
         <div className='Candidate-layout'>
             <div className='Candidate-status-Layout'>
                 <div className='Candidate-Text'>Candidate Status</div>
-                <div htmlFor="ViewAll" className='CandidateView-all'>View All</div>
+                <div className='CandidateView-all'>View All</div>
                 {/* <div className='Search-layout'>
                     <button class="btn" className='Filter-layout'><img src={filter} className="view" alt="logo" /> <span className='Filter'>Filter</span></button>
                 </div> */}
