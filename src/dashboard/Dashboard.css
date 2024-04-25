@@ -40,7 +40,7 @@
     opacity: 0px;
     background: #FFFFFF;
     box-shadow: 4px 4px 25px 0px #00000026;
-
+    margin-top:30px
 }
 
 .TodaysInterview-Layout {
@@ -240,35 +240,164 @@
 }
 
 .user-icon {
-    width: 100px;
-}
-.label-text {
-    width: 90px;
-height: 24px;
-top: 176.98px;
-left: 91.51px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-color: #091316;
+    /* width: 100px; */
+    width: 103.76px;
+    height: 103.76px;
+    top: 46.69px;
+    left: 84.63px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #0A66C2;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left:82px;
 
 }
+
+.label-text {
+    width: 90px;
+    height: 24px;
+    top: 176.98px;
+    left: 91.51px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #091316;
+    margin-top: 10px;
+    margin-left:82px;
+
+}
+
 .jobDesc {
     width: 170px;
+    height: 21px;
+    top: 207.36px;
+    left: 51.51px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #091316;
+    padding-top: 11px;
+    margin-left: 55px;
+}
+
+.Interview-meeting {
+    width: 809.25px;
+    height: 324.87px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 4px 4px 25px 0px #00000026;
+    display: flex;
+
+}
+
+.day {
+    width: 94px;
+    height: 21px;
+    top: 298.99px;
+    left: 21.98px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #0A66C2;
+
+}
+
+.dayTimeIcon {
+    width: 50px;
+    height: 38px;
+    top: 927px;
+    left: 203.85px;
+    gap: 38px;
+    opacity: 0px;
+
+}
+
+/* .imgDateTime {
+    width: 319.13px;
+height: 0px;
+top: 5.83px;
+left: 269.63px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+angle: -90 deg;
+background-color: red;
+} */
+
+th,
+td {
+    border: 1px solid #D6D6D6;
+    padding: 15px;
+    width: 250px;
+}
+.reschedule{
+    width: 171.37px;
+    height: 45px;
+    top: 248.08px;
+    left: 360.41px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;    
+    border: 1px solid #0A66C2;
+    margin-left: 56px;
+}
+.rescheduleText{
+    width: 143px;
 height: 21px;
-top: 207.36px;
-left: 51.51px;
+top: 260.08px;
+left: 374.6px;
 gap: 0px;
 opacity: 0px;
 font-family: Poppins;
 font-size: 14px;
-font-weight: 400;
+font-weight: 500;
 line-height: 21px;
-text-align: center;
-color: #091316;
+text-align: left;
+color: #0A66C2;
+margin-left:20px;
+margin-top: 10px;
 
+}
+.joinmeetingtext{
+    width: 143px;
+height: 21px;
+top: 260.08px;
+left: 374.6px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #FFFFFF;
+margin-left:45px;
+margin-top: 10px;
+
+}
+.joinmeeting{
+    width: 171.37px;
+height: 45px;
+top: 248.08px;
+left: 547.1px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+background: #0A66C2;
+margin-left: 56px;
 }

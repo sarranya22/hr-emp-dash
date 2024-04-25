@@ -20,9 +20,9 @@ function createData(id, name, position, first, second, third, fourth, totalMark,
 
 const rows = [
     createData('#001', "John Deo", "Designer", "6/10", "7/10", "...", "2/10", "3/10", "Active"),
-    createData('#002', "John Deo", "Designer", "...", "7/10", "...", "...", "3/10", "Reject"),
-    createData('#003', "John Deo", "Designer", "6/10", "7/10", "8/10", "7/10", "3/10", "Hired"),
-    createData('#004', "John Deo", "Designer", "6/10", "7/10", "...", "...", "3/10", "Active"),
+    createData('#002', "John Smith", "Designer", "...", "7/10", "...", "...", "3/10", "Reject"),
+    createData('#003', "Stella", "Designer", "6/10", "7/10", "8/10", "7/10", "3/10", "Hired"),
+    createData('#004', "Randy", "Designer", "6/10", "7/10", "...", "...", "3/10", "Active"),
     createData('#005', "John Deo", "Designer", "6/10", "7/10", "7/10", "8/10", "9/10", "Hired"),
 ];
 
