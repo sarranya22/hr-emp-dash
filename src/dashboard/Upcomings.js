@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Upcomings = () => {
-  return (
-  <div>
-       <div className="Upcoming-layout">
+    return (
+        <div className='upcoming py-5'>
+            <div className="Upcoming-layout">
                 <div>
                     <label htmlFor="Upcomings" className='Upcomings-label'>Upcomings</label>
                     <label htmlFor="ViewAll" className='View-all'>View All</label>
@@ -97,8 +97,8 @@ const Upcomings = () => {
                     <button className='Button-details'>Details</button>
                 </div>
             </div>
-  </div>
-  )
+        </div>
+    )
 }
 
 export default Upcomings

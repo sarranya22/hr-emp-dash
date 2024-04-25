@@ -10,39 +10,38 @@ import menuicon7 from '../../src/assets/menuicon7.PNG'
 import menuicon8 from '../../src/assets/menuicon8.PNG'
 import menuicon9 from '../../src/assets/menuicon9.PNG'
 
-
 const Sidenav = () => {
   return (
     <div className='Sidenav-layout'>
-        <ul>
-            <li>
-            <img src={menuicon1} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon2} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon3} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon4} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon5} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon6} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon7} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon8} className="menu-icon" alt="logo" />
-            </li>
-            <li>
-            <img src={menuicon9} className="menu-icon" alt="logo" />
-            </li>
-        </ul>
+      <ul className='ps-3'>
+        <li>
+          <img src={menuicon1} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon2} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon3} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon4} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon5} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon6} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon7} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon8} className="menu-icon" alt="logo" />
+        </li>
+        <li>
+          <img src={menuicon9} className="menu-icon" alt="logo" />
+        </li>
+      </ul>
     </div>
   )
 }

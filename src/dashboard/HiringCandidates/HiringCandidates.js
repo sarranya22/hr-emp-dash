@@ -5,13 +5,13 @@ import user2 from '../../../src/assets/user2.png'
 import user3 from '../../../src/assets/user3.png'
 
 const HiringCandidates = () => {
-    return (
-        <div className='Hiring-layout'>
-            <div className='Hiring-candidates'>
-            <label className='Hiring-text'>HiringCandidates</label>
-            <label className='Hiring-all'>View All</label>
-            </div>
-            <div className='Activity-data'>
+  return (
+    <div className='Hiring-layout'>
+      <div className='Hiring-candidates'>
+        <label className='Hiring-text'>HiringCandidates</label>
+        <label className='Hiring-all'>View All</label>
+      </div>
+      <div className='Activity-data pt-3'>
         <div>
           <img src={user1} className="User-icon" alt="logo" />
         </div>
@@ -21,7 +21,7 @@ const HiringCandidates = () => {
           <div className='Lastsceen'>Hired by: Stella</div>
         </div>
         <div>
-            <button className='Button-Detail'>Details</button>
+          <button className='Button-Detail'>Details</button>
         </div>
       </div>
       <div className='Activity-data'>
@@ -34,7 +34,7 @@ const HiringCandidates = () => {
           <div className='Lastsceen'>Hired by: Stella</div>
         </div>
         <div>
-            <button className='Button-Detail'>Details</button>
+          <button className='Button-Detail'>Details</button>
         </div>
       </div>
       <div className='Activity-data'>
@@ -47,11 +47,11 @@ const HiringCandidates = () => {
           <div className='Lastsceen'>Hired by: Stella</div>
         </div>
         <div>
-            <button className='Button-Detail'>Details</button>
+          <button className='Button-Detail'>Details</button>
         </div>
       </div>
-        </div>
-    )
+    </div>
+  )
 }
 
 export default HiringCandidates

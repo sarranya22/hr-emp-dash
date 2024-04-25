@@ -6,7 +6,6 @@ import upArrow from '../../../src/assets/upArrow.PNG'
 import angular from '../../../src/assets/angular.PNG'
 import java from '../../../src/assets/java.PNG'
 
-
 const PostedJob = () => {
     return (
         <div className='Postedjob-layout'>
@@ -44,7 +43,6 @@ const PostedJob = () => {
                             <label htmlFor="" className='Jobstxt'>6 mins ago</label>
                         </div>
                     </div>
-
                 </div>
                 <div className='Job-layout'>
                     <div className='Job-post'>
@@ -70,7 +68,6 @@ const PostedJob = () => {
                             <label htmlFor="" className='Jobstxt'>6 mins ago</label>
                         </div>
                     </div>
-
                 </div>
                 <div className='Job-layout'>
                     <div className='Job-post'>
@@ -86,7 +83,6 @@ const PostedJob = () => {
                                 <label htmlFor="count" className='Count'>256</label>
                             </div><br />
                             <label htmlFor="Total application" className='Developer-text'>Total Applicants</label>
-
                         </div>
                         <hr />
                         <div className='Job-developer'>
@@ -112,8 +108,7 @@ const PostedJob = () => {
                                 <label htmlFor="count" className='Count'>256</label>
                             </div><br />
                             <label htmlFor="Total application" className='Developer-text'>Total Applicants</label>
-
-                        </div>
+</div>
                         <hr />
                         <div className='Job-developer'>
                             <img src={upArrow} alt="logo" />
@@ -122,7 +117,6 @@ const PostedJob = () => {
                             <label htmlFor="" className='Jobstxt'>6 mins ago</label>
                         </div>
                     </div>
-
                 </div> */}
             </div>
         </div>

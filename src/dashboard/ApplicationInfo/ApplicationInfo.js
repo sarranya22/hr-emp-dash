@@ -47,24 +47,28 @@ const ApplicationInfo = () => {
     },
   }
   return (
-    <div className='Chart-layout'>
-      <div style={{ width: '55%' }}>
-        <Bar options={options} data={data} />
+    <div className='Chart-layout py-3'>
+      <div className='col-md-7 ps-5'>
+        <div style={{ width: '85%' }}>
+          <Bar options={options} data={data} />
+        </div>
       </div>
-      <div className='New-assment'>
-        <div style={{ display: 'flex' }}>
-          <img src={file} alt="logo" className='File-image' />
-          <img src={newassment} alt="logo" className='imageOne' />
-          <img src={newassment} alt="logo" className='imageTwo' />
-        </div>
-        <div className='Countlayout'>
-          <div>0033</div>
-        </div>
-        <div className='New-assment-text'>
-          <div>New Assessment's</div>
-        </div>
-        <div className='View-details'>
-          <div className='View-detail-text'>View Details</div>
+      <div className='col-md-5'>
+        <div className='New-assment py-3'>
+          <div className='d-flex'>
+            <img src={file} alt="logo" className='File-image' />
+            <img src={newassment} alt="logo" className='imageOne' />
+            <img src={newassment} alt="logo" className='imageTwo' />
+          </div>
+          <div className='Countlayout'>
+            <div>0033</div>
+          </div>
+          <div className='New-assment-text'>
+            <div>New Assessment's</div>
+          </div>
+          <div className='View-details'>
+            <div className='View-detail-text'>View Details</div>
+          </div>
         </div>
       </div>
     </div>

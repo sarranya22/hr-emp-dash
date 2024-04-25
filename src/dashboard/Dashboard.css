@@ -1,12 +1,4 @@
-.Dashboard-layout {
-    width: 773px;
-    height: 117px;
-    /* top: 190px; */
-    margin-left: 65px;
-    margin-top: 25px;
-    gap: 0px;
-    opacity: 0px;
-}
+
 
 .Hr-emp {
     font-family: Poppins;
@@ -34,13 +26,13 @@
     height: 561.88px;
     top: 773px;
     /* left: 165.85px; */
-    margin-left: 65px;
+    /* margin-left: 65px; */
     gap: 0px;
     border-radius: 5px 0px 0px 0px;
     opacity: 0px;
     background: #FFFFFF;
     box-shadow: 4px 4px 25px 0px #00000026;
-    margin-top:30px
+    margin-top: 30px
 }
 
 .TodaysInterview-Layout {
@@ -84,8 +76,8 @@
 
 /* Calendar */
 .Right-layout {
-    width: 319.01px;
-    height: 1832.16px;
+    /* width: 319.01px; */
+    /* height: 1832.16px; */
     top: 773px;
     /* left: 1562.93px; */
     gap: 0px;
@@ -93,6 +85,9 @@
     margin-left: 45px
 }
 
+.upcoming{
+    margin-left:40px;
+}
 .Calendar-layout {
     width: 318.08px;
     height: 310.37px;
@@ -147,7 +142,7 @@
     width: 66.16px;
     height: 26.04px;
     top: 1075.35px;
-    margin-left: 153px;
+    margin-left: 70px;
     gap: 0px;
     opacity: 0px;
     font-family: Poppins;
@@ -251,7 +246,7 @@
     border: 1px solid #0A66C2;
     border-radius: 50%;
     margin-top: 50px;
-    margin-left:82px;
+    margin-left: 82px;
 
 }
 
@@ -269,7 +264,7 @@
     text-align: center;
     color: #091316;
     margin-top: 10px;
-    margin-left:82px;
+    margin-left: 82px;
 
 }
 
@@ -340,11 +335,12 @@ background-color: red;
 
 th,
 td {
-    border: 1px solid #D6D6D6;
+    border: 1px solid #D6D6D6 !important;
     padding: 15px;
     width: 250px;
 }
-.reschedule{
+
+.reschedule {
     width: 171.37px;
     height: 45px;
     top: 248.08px;
@@ -352,52 +348,55 @@ td {
     gap: 0px;
     border-radius: 3px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;    
+    opacity: 0px;
     border: 1px solid #0A66C2;
-    margin-left: 56px;
+    /* margin-left: 56px; */
 }
-.rescheduleText{
+
+.rescheduleText {
     width: 143px;
-height: 21px;
-top: 260.08px;
-left: 374.6px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 500;
-line-height: 21px;
-text-align: left;
-color: #0A66C2;
-margin-left:20px;
-margin-top: 10px;
+    height: 21px;
+    top: 260.08px;
+    left: 374.6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #0A66C2;
+    margin-left: 20px;
+    margin-top: 10px;
 
 }
-.joinmeetingtext{
+
+.joinmeetingtext {
     width: 143px;
-height: 21px;
-top: 260.08px;
-left: 374.6px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 500;
-line-height: 21px;
-text-align: left;
-color: #FFFFFF;
-margin-left:45px;
-margin-top: 10px;
+    height: 21px;
+    top: 260.08px;
+    left: 374.6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: 10px;
 
 }
-.joinmeeting{
+
+.joinmeeting {
     width: 171.37px;
-height: 45px;
-top: 248.08px;
-left: 547.1px;
-gap: 0px;
-border-radius: 3px 0px 0px 0px;
-opacity: 0px;
-background: #0A66C2;
-margin-left: 56px;
+    height: 45px;
+    top: 248.08px;
+    left: 547.1px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    background: #0A66C2;
+    /* margin-left: 56px; */
 }

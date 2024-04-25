@@ -10,34 +10,64 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <nav className="navbar">
-      <img src={logo} className="App-logo" alt="logo" />
-        {/* <input type="text" placeholder="Search" /> */}
-        {/* <img src={search} className="header-icon" alt="logo" /> */}
-      <div>
-       
+    <div className="row py-3 header-layout">
+      <div className="col-12 col-md-3">
+        <img src={logo} className="App-logo" alt="logo" />
       </div>
-      <div>
-        <ul className="menu_list">
-          <li>
-            <img src={headermenuOne} className="header-icon" alt="logo" />
-          </li>
-          <li>
-            <img src={chat} className="header-icon" alt="logo" />
-          </li>
-          <li>
-            <img src={notification} className="header-icon" alt="logo" />
-          </li>
-          <li>
-            <img src={settings} className="header-icon" alt="logo" />
-          </li>
-          <li>
-            <img src={user1} className="header-icon" alt="logo" />
-          </li>
-        </ul>
+      <div className="col-12 col-md-6">
+        <input type="text" placeholder='Search' className='input-text' />
       </div>
-    </nav>
+      <div className="col-12 col-md-3">
+        <div>
+          <ul className="d-flex">
+            <li>
+              <img src={headermenuOne} className="header-icon" alt="logo" />
+            </li>
+            <li>
+              <img src={chat} className="header-icon ps-4" alt="logo" />
+            </li>
+            <li>
+              <img src={notification} className="header-icon ps-4" alt="logo" />
+            </li>
+            <li>
+              <img src={settings} className="header-icon ps-4" alt="logo" />
+            </li>
+            <li>
+              <img src={user1} className="header-icon ps-4" alt="logo" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   )
 }
 
 export default Header
+
+{/* <nav className="navbar">
+<img src={logo} className="App-logo" alt="logo" /> */}
+{/* <input type="text" placeholder="Search" /> */ }
+{/* <img src={search} className="header-icon" alt="logo" /> */ }
+{/* <div>
+ 
+</div>
+<div>
+  <ul className="menu_list">
+    <li>
+      <img src={headermenuOne} className="header-icon" alt="logo" />
+    </li>
+    <li>
+      <img src={chat} className="header-icon" alt="logo" />
+    </li>
+    <li>
+      <img src={notification} className="header-icon" alt="logo" />
+    </li>
+    <li>
+      <img src={settings} className="header-icon" alt="logo" />
+    </li>
+    <li>
+      <img src={user1} className="header-icon" alt="logo" />
+    </li>
+  </ul>
+</div>
+</nav> */}

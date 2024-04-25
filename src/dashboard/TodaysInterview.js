@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Dashboard.css"
-import ApplicationInfo from './ApplicationInfo/ApplicationInfo'
-import PostedJob from './PostedJobs/PostedJob'
 import candidate1 from '../../src/assets/candidateone.jpeg'
 import calendar from '../../src/assets/calendar.PNG'
 import time from '../../src/assets/time.PNG'
@@ -9,13 +7,11 @@ import time from '../../src/assets/time.PNG'
 const TodaysInterview = () => {
   return (
     <>
-      <ApplicationInfo />
       <div className='Interview-Layout'>
         <div className='TodaysInterview-Layout'>
           <div className='TodaysInterview-Text'>Today Interviews Meetings Info</div>
           {/* <hr /> */}
         </div>
-
         <div className='Interview-meeting'>
           <div className='imgDateTime'>
             <img src={candidate1} className="user-icon" alt="logo" />
@@ -23,7 +19,7 @@ const TodaysInterview = () => {
               <div htmlFor="" className='label-text'>John Smith</div>
               <div htmlFor="" className='jobDesc'>Senior Python Developer</div>
             </div>
-            <div style={{ display: 'flex', 'margin-left': '50px', 'marginTop': '22px' }}>
+            <div className='d-flex' style={{ 'margin-left': '50px', 'marginTop': '22px' }}>
               <div>
                 <img src={calendar} alt="logo" className='dayTimeIcon' />
                 <br />
@@ -36,8 +32,9 @@ const TodaysInterview = () => {
               </div>
             </div>
           </div>
-          <div style={{'margin-left':'100px',    'borderLeft': '1px solid #D6D6D6'
-}}>
+          <div style={{
+            'margin-left': '100px', 'borderLeft': '1px solid #D6D6D6'
+          }}>
             <table>
               <tr>
                 <td>1st Level : 7/10</td>
@@ -57,20 +54,20 @@ const TodaysInterview = () => {
               </tr>
             </table>
             <br />
-            <div style={{display:'flex'}}>
-            <div className='reschedule'>
-              <div className='rescheduleText'> Reschedule Meeting</div>
-            </div>
-            <div className='joinmeeting'>
-              <div className='joinmeetingtext'> Join Meeting</div>
-            </div>
+            <div className='d-flex' >
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <div className='reschedule'>
+                <div className='rescheduleText'> Reschedule Meeting</div>
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <div className='joinmeeting'>
+                <div className='joinmeetingtext'> Join Meeting</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <PostedJob />
     </>
-
   )
 }
 

@@ -1,18 +1,13 @@
 import React from 'react'
 import './CandidateStatus.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
-import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 import view from '../../../src/assets/view.PNG'
-import filter from '../../../src/assets/filter.PNG'
 
 function createData(id, name, position, first, second, third, fourth, totalMark, status, actions) {
     return { id, name, position, first, second, third, fourth, totalMark, status, actions };
@@ -57,7 +52,7 @@ const CandidateStatus = () => {
                         <TableBody>
                             {rows.map((row) => (
                                 <TableRow
-                                    key={row.name}
+                                    key={row.id}
                                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                                 >
                                     {/* <TableCell component="th" scope="row">
@@ -86,7 +81,6 @@ const CandidateStatus = () => {
                 </TableContainer>
             </div>
         </div>
-
     )
 }
 
